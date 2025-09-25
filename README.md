@@ -1,1 +1,1 @@
-# Connect4
+# Connect4Group
