@@ -1,5 +1,5 @@
-Connect 4 Game
-Group LSC 
+Connect 4 Game,
+Group LSC: 
 This project implements the classic Connect 4 game using C.
 Connect 4 is a two-player connection game where players take turns dropping colored discs into a vertical grid.
 The first to align four discs in a row—horizontally, vertically, or diagonally—wins.
