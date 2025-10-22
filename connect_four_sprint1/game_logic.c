@@ -24,8 +24,8 @@ void make_move(Cell board[ROWS][COLS], int column, Cell player){
     }
     // Place the token in the lowest available cell in the selected column
     for(int i = ROWS-1; i >= 0; i--){
-       if(board[i][COLS] == EMPTY){
-           board[i][COLS] = player;
+       if(board[i][column-1] == EMPTY){
+           board[i][column-1] = player;
            break;
        }
     }
