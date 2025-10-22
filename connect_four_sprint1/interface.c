@@ -41,7 +41,7 @@ int get_player_input(Cell player) {
             continue;
         }
         // Validate input is within column range (1-7)
-        if (column < 0 || column >= COLS) {
+        if (column =< 0 || column > COLS) {
             printf("Invalid column. Please enter a number between 1 and 7.\n");
             continue;
         }
@@ -59,3 +59,4 @@ void print_winner(Cell player) {
 void print_draw(void) {
     printf("\nIt's a draw! No more moves left.\n");
 }
+
