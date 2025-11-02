@@ -364,6 +364,5 @@ int bot_medium_move(Cell board[ROWS][COLS]) {
         }
     }
     return bestCol;
-//   T(n) = O(COLS^2 x ROWS)(Win check) + O(COLS^2x ROWS)(Block check)+O(ROWS x COLS^2)(Main loop)=O(ROWS x COLS^2)
 }
 
