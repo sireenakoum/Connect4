@@ -52,18 +52,7 @@ int main(int argc, char *argv[]) {
        printf("Connected to server\n");
     }
     display_board(board);
-if (networking == 0) {
-    int turnChoice;
-    printf("Who starts?\n1 = Bot starts\n2 = Player starts\n");
-    scanf("%d", &turnChoice);
-
-    if (turnChoice == 1)
-        current_player = PLAYER_B;  // bot starts
-    else
-        current_player = PLAYER_A;  // human starts
-}
-
-    // Game loop
+   // Game loop
     while (!boardFull(board)) {
 
      if (networking == 3) {
@@ -158,4 +147,5 @@ if (networking == 0) {
 
     return 0;
 }
+
 
